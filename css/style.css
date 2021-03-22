@@ -1,21 +1,36 @@
 /*Aqui ficará o estilodo meu site*/
 
 body{
-   background-color:#c2d6d6;
+   background-image: url("../img/paisagem.jpg");
    width: 80%;
    margin-right: auto;
    margin-left: auto;
 }
 
 h1{
-  color:#006666;
+  color: #33ffff;
   text-align:center;
 }
 
 h2{ 
-  color:#009999;
+  color: #33ffff;
   text-align 
 }   
+
+p{
+  color:#fff
+
+}
+
+ul{
+  color:#fff
+
+}
+
+ul li{
+  color:#fff
+
+}
 
 a:link {
   color: green;
@@ -39,4 +54,22 @@ a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
+}
+
+img{
+
+	width: 60%;
+}
+
+table{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	color: #fff;
+}
+
+td,th{
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 10px
 }
