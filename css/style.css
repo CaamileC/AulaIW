@@ -1,75 +1,89 @@
 /*Aqui ficará o estilodo meu site*/
+/*margin-right: 8px;
+     margin-left: 8px; */
 
 body{
-   background-image: url("../img/paisagem.jpg");
-   width: 80%;
-   margin-right: auto;
-   margin-left: auto;
+     background-image: url("../img/paisagem.jpg");
+   
 }
 
+.container{
+     width: 80%;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+
 h1{
-  color: #33ffff;
-  text-align:center;
+     color: #33ffff;
+     text-align:center;
 }
 
 h2{ 
-  color: #33ffff;
-  text-align 
+     color: #33ffff;
+     text-align 
 }   
 
 p{
-  color:#fff
+     color:#fff
 
 }
 
 ul{
-  color:#fff
+     color:#fff
 
 }
 
 ul li{
-  color:#fff
+     color:#fff
 
 }
 
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
+figure{
+	 text-align: 60%;
 }
 
 img{
+	 width: 60%
+}
 
-	width: 60%;
+a:link {
+     color: green;
+     background-color: transparent;
+     text-decoration: none;
+}
+
+a:visited {
+     color:#ff0000;
+     background-color: transparent;
+     text-decoration: none;
+}
+
+a:hover {
+     color: #fff;
+     background-color: transparent;
+     text-decoration: underline;
+}
+
+a:active {
+     color: yellow;
+     background-color: transparent;
+     text-decoration: underline;
 }
 
 table{
-	font-family: arial, sans-serif;
-	border-collapse: collapse;
-	width: 100%;
-	color: #fff;
+	 font-family: arial, sans-serif; 
+	 border-collapse: collapse;
+	 width: 100%;
+   	 color: #fff;
 }
 
 td,th{
-	border: 1px solid #dddddd;
-	text-align: left;
-	padding: 10px
+	 border: 1px solid #dddddd;
+	 text-align: left;
+	 padding: 10px
+}
+
+.centro{
+	 text-align: center;
 }
