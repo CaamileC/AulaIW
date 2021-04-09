@@ -13,19 +13,42 @@ body{
      margin-left: auto;
 }
 
+header, footer {
+     background-color: rgba(0,104,139,0.5);
+     padding:5%;
+
+}
 
 h1{
+	 font-size: 2em;
      color: #33ffff;
      text-align:center;
+     margin-top: 3%;
+     margin-bottom: 3%;
+
 }
 
 h2{ 
+	 font-size: 30px;
      color: #33ffff;
      text-align 
+     margin-top: 1%;
+     margin-bottom: 1%;
+
 }   
 
+h3{ 
+	 color: #33ffff;
+	 font-size: 20px;
+	 margin-top: 1%;
+
+}
+
 p{
-     color:#fff
+	 color:#fff;
+     font-size: 1.2em;
+     margin-top: 1%;
+     margin-bottom: 1%;
 
 }
 
@@ -35,7 +58,10 @@ ul{
 }
 
 ul li{
+	 font-size: 20px;
      color:#fff
+     margin-top: 1%;
+     margin-bottom: 1%;
 
 }
 
