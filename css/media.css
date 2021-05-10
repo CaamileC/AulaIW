@@ -1,0 +1,56 @@
+@media screen and (min-width: 800px){
+
+	body{
+		 background-color: #BBFFFF;
+}
+
+    h1{
+    	font-size: 3em;
+    	text-align: center;
+    	color: #828282;
+    	text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+    }
+
+	h2{
+	   	 font-size: 2em;
+	  	 color: #828282;
+		 text-shadow: 2px 2px 5px blue;
+}
+
+	img{
+	     width: 50%;
+	     box-shadow: 10px 10px 5px gray;
+}
+
+
+}
+
+
+@media screen and (max-width: 799px){
+
+	body{
+		 background-image: linear-gradient(to right, blue, purple);
+}
+
+    h1{
+    	font-size: 3em;
+    	text-align: center;
+    	color: #828282;
+    	text-shadow: 2px 2px;
+    }
+
+	h2{
+		 font-size: 2em;
+		 color: #828282;
+		 text-shadow: 2px 2px;
+}
+
+	img{
+     	 border-radius: 8px;
+     	 display: block;
+     	 margin-left: auto;
+     	 margin-right: auto;
+     	 width: 50%;
+}
+
+}
