@@ -9,7 +9,7 @@
       }
 
       header, footer {
-           background-color: rgba(0,104,139);
+           background-color: rgba(0,104,139, 0.5);
            padding:1%;
            position: relative;
            display: flex;
@@ -61,7 +61,7 @@
       /*tela maior que 768px*/ 
       @media screen and (min-width: 768px){
            .container{
-                     margin-top: 20%;
+                     margin-top: 14%;
            }
 
            header{
@@ -171,4 +171,12 @@
 
       .centro{
 	      text-align: center;
+      }
+
+      .fundo{
+           background-color: #fff;
+      }
+
+      .titulo{
+           color: black;
       }

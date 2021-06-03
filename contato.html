@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content= "width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.jpg">
+	<title>Contato</title>
+</head>
+<body>
+
+     <header class="fixo">
+         <img class="imglogo" src="img/LOGOTIPO-SITE.png">
+         <nav class="menu-opcoes">
+             <ul class="ajustes">
+                 <li><a href="index.html">Inicio</a></li>
+                 <li><a href="index.html#html">HTML</a></li>
+                 <li><a href="index.html#css">CSS</a></li>
+                 <li><a href="javascript.html">JavaScript</a></li>
+                 <li><a href="media.html">Informática</a></li>
+                 <li><a href="contato.html">Contato</a></li>
+             </ul>
+         </nav>  
+     </header>
+
+     <div class="container">
+         <h1>Formulário de Contato</h1>
+             <p class="centro">Entre em contato conosco para tirar dúvidas ou mandar sugestões</p>
+             <form class="fundo">
+                 <div class="">
+                     <label>Nome: </label>
+                     <input type="text">
+                 </div>
+                 <div>
+                     <label>Assunto: </label>
+                     <input type="text">
+                 </div>
+                 <div>
+                     <p class="titulo">Sexo</p>
+                     <input type="radio" id="male" name="gender" value="male">
+                     <label for="male">Feminino</label><br>
+                     <input type="radio" id="female" name="gender" value="female">
+                     <label for="female">Masculino</label><br>
+                 </div>
+                 <div>
+                     <label for="cars">Escolaridade</label>
+                         <select id="cars" name="cars">
+                             <option value="volvo">Fundamental</option>
+                             <option value="saab">Ensino Médio</option>
+                             <option value="fiat">Superior</option>
+                             <option value="audi">Especialização</option>
+                         </select>
+                 </div>
+                 <div>
+                     <p class="titulo">O que achou de nosso site?</p>
+                     <input type="checkbox" id="male" name="gender" value="male">
+                     <label for="male">Ruim</label><br>
+                     <input type="checkbox" id="female" name="gender" value="female">
+                     <label for="male">Médio</label><br>
+                     <input type="checkbox" id="male" name="gender" value="male">
+                     <label for="male">Bom</label><br>
+                     <input type="checkbox" id="male" name="gender" value="male">
+                     <label for="male">Excelente</label><br>
+                 </div>
+                 <div>
+                     <label for="cars">Sugestões ou dúvidas</label>
+                     <textarea name="message" style="width: 200px; height: 200px;">Digite seu texto aqui</textarea>
+                 </div>
+                 <div>
+                     <input type="submit" value="Enviar">
+                 </div>
+             </form>
+     </div>
+     <footer>
+         	 <p class="centro">Rodapé</p>
+     </footer>
+</body>
+</html>
