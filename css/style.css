@@ -1,14 +1,14 @@
 
-      html{
+       html{
            scroll-behavior: smooth;
-      }
+       }
 
-      body{
+       body{
            background-image: url("../img/paisagem.jpg");
            font-family: 'Indie Flower', cursive;
-      }
+       }
 
-      header, footer {
+       header, footer {
            background-color: rgba(0,104,139, 0.5);
            padding:1%;
            position: relative;
@@ -17,49 +17,49 @@
            align-items: center;
            font-size: 1.5em;
            font-weight: bolder;
-      }
+       }
 
-      .fixo{
+       .fixo{
            position: fixed;
            top: 0;
            right: 0;
            left: 0;
            z-index: 1030;
-      }
+       }
 
-      .ajustes{
+       .ajustes{
            line-height: 1;
            text-align: center;
-      }
+       }
 
-      .ajustes li:hover{
+       .ajustes li:hover{
            background-color: black;
-      }
+       }
 
-      .container{
+       .container{
            margin-top: 50%;
            width: 80%;
            margin-right: auto;
            margin-left: auto;
            position: relative;
-      }
+       }
 
-      /*tela menor que 599px */
-      @media screen and (max-width: 599px) {
+       /*tela menor que 599px */
+       @media screen and (max-width: 599px) {
            .container{
                      margin-top: 50%;
            }
            }
 
-      /*tela maior que 600px */
-      @media screen and (min-width: 600px){
+       /*tela maior que 600px */
+       @media screen and (min-width: 600px){
            .container{
                      margin-top: 40%;
            }
            }
 
-      /*tela maior que 768px*/ 
-      @media screen and (min-width: 768px){
+       /*tela maior que 768px*/ 
+       @media screen and (min-width: 768px){
            .container{
                      margin-top: 14%;
            }
@@ -85,98 +85,136 @@
 
      
 
-      h1{
-	      font-size: 2em;
+       h1{
+	         font-size: 2em;
            color: #fff;
            text-align:center;
            margin-top: 3%;
            margin-bottom: 3%;
-      }
+       }
 
-      h2{ 
-	      font-size: 30px;
+       h2{ 
+	         font-size: 30px;
            color: #33ffff;
            text-align 
            margin-top: 1%;
            margin-bottom: 1%;
-      }   
+       }   
 
-      h3{ 
-	      color: #33ffff;
+       h3{ 
+	         color: #33ffff;
            font-size: 20px;
- 	      margin-top: 1%;
+ 	         margin-top: 1%;
 
-      }
+       }
 
-      p{
+       p{
 	      color:#fff;
            font-size: 1.2em;
            margin-top: 1%;
            margin-bottom: 1%;
-      }
+       }
 
-      .listastexto{
-	      font-size: 20px;
+       .listastexto{
+	         font-size: 20px;
            color:#fff;
            margin-top: 1%;
            margin-bottom: 1%;
-      }
+       }
 
-      figure{
-	      text-align: 60%;
-      }
+       figure{
+	         text-align: 60%;
+       }
 
 
-      .imagem{
+       .imagem{
            width: 60%;
-      }
+       }
 
 
-      a:link{
+       a:link{
            color: green;
            background-color: transparent;
            text-decoration: none;
-      }
+       }
 
-      a:visited{
+       a:visited{
            color: #fff;
            background-color: transparent;
            text-decoration: none;
-      }
+       }
 
-      a:hover{
+       a:hover{
            color: blue;
            background-color: transparent;
            text-decoration: underline;
-      }
+       }
 
-      a:active{
+       a:active{
            color: yellow;
            background-color: transparent;
            text-decoration: underline;
-      }
+       }
 
-      table{
-	      font-family: arial, sans-serif; 
-	      border-collapse: collapse;
-	      width: 100%;
-   	      color: #fff;
-      }
+       table{
+	         font-family: arial, sans-serif; 
+	         border-collapse: collapse;
+	         width: 100%;
+   	       color: #fff;
+       }
 
-      td,th{	 
+       td,th{	 
            border: 1px solid #dddddd;
-	      text-align: left;
-	      padding: 10px
-      }
+	         text-align: left;
+	         padding: 10px
+       }
 
-      .centro{
-	      text-align: center;
-      }
+       .centro{
+	         text-align: center;
+       }
 
-      .fundo{
-           background-color: #fff;
-      }
+       .fundo{
+           background-color: #B0E2FF;
+           width: 80%;
+           margin-left: auto;
+           margin-right: auto;
+           padding: 3%;
 
-      .titulo{
+       }
+
+       .distancia{
+           margin-top: 2.5%;
+           margin-bottom: 2.5%;
+       }
+
+       .titulo{
            color: black;
-      }
+       }
+
+       input[type=text], select, textarea{
+           width: 100%;
+           padding: 6px 10px;
+           display: inline-block;
+           border: 1px solid #ccc;
+           border-radius: 6px;
+           box-sizing: border-box;
+
+       }
+
+       input[type=submit] {
+           width: 20%;
+           background-color: rgba(0,104,139,0.5); 
+           color: white;
+           padding: 6px 10px;
+           margin: 8px 0;
+           border: none;
+           border-radius: 6px;
+           cursor: pointer;
+
+       } 
+
+       fieldset{
+           width: 98.7%;
+           border: 1px solid #ccc;
+           padding: 2px;
+       }

@@ -27,50 +27,71 @@
      <div class="container">
          <h1>Formulário de Contato</h1>
              <p class="centro">Entre em contato conosco para tirar dúvidas ou mandar sugestões</p>
-             <form class="fundo">
-                 <div class="">
-                     <label>Nome: </label>
-                     <input type="text">
-                 </div>
-                 <div>
-                     <label>Assunto: </label>
-                     <input type="text">
-                 </div>
-                 <div>
-                     <p class="titulo">Sexo</p>
-                     <input type="radio" id="male" name="gender" value="male">
-                     <label for="male">Feminino</label><br>
-                     <input type="radio" id="female" name="gender" value="female">
-                     <label for="female">Masculino</label><br>
-                 </div>
-                 <div>
-                     <label for="cars">Escolaridade</label>
-                         <select id="cars" name="cars">
-                             <option value="volvo">Fundamental</option>
-                             <option value="saab">Ensino Médio</option>
-                             <option value="fiat">Superior</option>
-                             <option value="audi">Especialização</option>
-                         </select>
-                 </div>
-                 <div>
-                     <p class="titulo">O que achou de nosso site?</p>
-                     <input type="checkbox" id="male" name="gender" value="male">
-                     <label for="male">Ruim</label><br>
-                     <input type="checkbox" id="female" name="gender" value="female">
-                     <label for="male">Médio</label><br>
-                     <input type="checkbox" id="male" name="gender" value="male">
-                     <label for="male">Bom</label><br>
-                     <input type="checkbox" id="male" name="gender" value="male">
-                     <label for="male">Excelente</label><br>
-                 </div>
-                 <div>
-                     <label for="cars">Sugestões ou dúvidas</label>
-                     <textarea name="message" style="width: 200px; height: 200px;">Digite seu texto aqui</textarea>
-                 </div>
-                 <div>
-                     <input type="submit" value="Enviar">
-                 </div>
-             </form>
+             <div class="fundo">
+                 <form>
+                     <div class="distancia">
+                         <input type="text" placeholder="Digite seu nome">
+                     </div>
+
+                     <div class="distancia">                    
+                         <input type="text" placeholder="Digite o assunto">
+                     </div>
+
+                     <div class="distancia">
+                         Data de nascimento: <input type="date" name="nascimento">
+                     </div>
+
+                     <div class="distancia">
+                         <label for="cars">Escolaridade</label>
+                             <select id="cars" name="cars">
+                                 <option value="volvo">Fundamental</option>
+                                 <option value="saab">Ensino Médio</option>
+                                 <option value="fiat">Superior</option>
+                                 <option value="audi">Especialização</option>
+                             </select>
+                     </div>
+
+                     <div class="distancia">
+                         <fieldset>
+                             <legend>Sexo</legend>
+                                 <input type="radio" id="male" name="gender" value="male">
+                                 <label for="male">Feminino</label><br>
+                                 <input type="radio" id="female" name="gender" value="female">
+                                 <label for="female">Masculino</label><br>
+                         </fieldset>
+                     </div>
+                            
+                     <div class="distancia">
+                         <fieldset>
+                             <legend>O que achou de nosso site?</legend>
+                                 <input type="checkbox" id="male" name="gender" value="male">
+                                 <label for="male">Ruim</label><br>
+                                 <input type="checkbox" id="female" name="gender" value="female">
+                                 <label for="male">Médio</label><br>
+                                 <input type="checkbox" id="male" name="gender" value="male">
+                                 <label for="male">Bom</label><br>
+                                 <input type="checkbox" id="male" name="gender" value="male">
+                                 <label for="male">Excelente</label><br>
+                         </fieldset>
+                     </div>
+
+                     <div class="distancia">
+                         <fieldset>
+                             <legend>De 1 a 5, quão interessante você achou o assunto mostrado no site?</legend>
+                                 <input type="number" name="quantidade" min="1" max="5">
+                        </fieldset>  
+                     </div>
+
+                     <div class="distancia">
+                         <label for="cars">Sugestões ou dúvidas</label>
+                         <textarea name="message" style="width:100%; height:200px;">Deixe seu comentário aqui.</textarea>
+                     </div>
+
+                     <div class="distancia">
+                         <input type="image" src="img/botao.jpg" alt="Submit" width="48" height="48" >
+                     </div>
+                 </form>
+             </div>
      </div>
      <footer>
          	 <p class="centro">Rodapé</p>
